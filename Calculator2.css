@@ -1,0 +1,133 @@
+body {
+}
+
+
+#plus {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    height: 70px;
+    float: right;
+    margin-right: 5px;
+}
+
+#zero {
+}
+
+.black {
+    background-color: black;
+}
+
+.calculator {
+    align-content: center;
+    text-align: center;
+    background-color: silver;
+    color: black;
+    height: 410px;
+    width: 300px;
+    border-radius:25px;
+    border-bottom-left-radius: 100%30px;
+    border-bottom-right-radius: 100%30px;
+    border-top-left-radius: 100%30px;
+    border-top-right-radius: 100%30px;
+    border-left: 1px solid #8a8a8a;
+    border-top: 1px solid #8a8a8a;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.calcTitle {
+    margin-top: 45px;
+    padding-top: 25px;
+    font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+    /*color: #fff;*/
+    color: #000000;
+    
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.functionText {
+    display: block;
+    font-style:italic;
+    color:#000000;
+    font-size: 15px ;
+    font-weight: 400;
+    margin-right: 5px;
+    margin-top: -4px;
+
+}
+
+
+
+.dispText {
+    margin-right: 5px;
+    margin-top: -5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 35px ;
+    font-weight: 400;
+}
+
+.functionScreen {
+    text-align: right;
+    background-color: #66CCFF;
+    border: groove;
+    color: black;
+    height: 20px;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+    /*overflow:scroll;*/
+    overflow:hidden;
+}
+
+
+.key {
+    border: inset;
+    color: white;
+    padding: 5px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 55px;
+    border-bottom-left-radius: 100%10px;
+    border-bottom-right-radius: 100%10px;
+    border-top-left-radius: 100%10px;
+    border-top-right-radius: 100%10px;
+}
+
+.red {
+    background-color: #A31919;
+}
+
+.screen {
+    text-align: right;
+    background-color:#66CCFF;
+    border: groove;
+    color: black;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+
+.tallKey {
+    
+    padding-top: 15px;
+}
+
+.shadow {
+    box-shadow: 10px 10px 6px -6px #777;
+}
